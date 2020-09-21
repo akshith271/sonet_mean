@@ -63,6 +63,7 @@ function populateTableContent(data, cityName) {
 		<div>Oops, looks like "${cityName}" is not a city</div>
 		`;
   }
+  ul.innerHTML = '';
   list = data.list;
   data.list.forEach((item) => {
     ul.innerHTML += `
